@@ -1,0 +1,80 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+@media (min-width:300px){
+div{
+  display: block;
+  width: 50%;
+}
+}
+div > .left-card > .tile-image{
+  float:left
+}
+
+.right-card > .tile-image{
+float:right;
+}
+
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+h1{
+  text-align: left;
+  display: block;
+}
+
+
+h2 p{
+  float:right;
+}
+ .card-text p{
+  float:right;
+}
+@media (min-width:300px) and (max-width:500px){
+  body{
+    background-image: url(./assets/images/357080517_251218681091674_7134372489964682212_n.jpg);
+  }
+}
+@media (min-width:502px) and (max-width:900px){
+  body{
+    background-image:url(./assets/images/winner.jpg)
+  }
+}
+@media (min-width:902px) and (max-width:1200px){
+  body{
+    background-image:url(./assets/images/k.jpg)
+  }
+}
+@media (min-width:1201px) and (max-width:1600px){
+  body{
+    background-image:url(./assets/images/grr.jpg)
+  }
+}
+@media (min-width:1601px) and (max-width:2250px){
+  body{
+    background-image:url(./assets/images/gs.jpg)
+  }
+}
+@media (min-width:2251px){
+  body{
+    background-image:url(./assets/images/358235528_6486371558076755_6578081718890856643_n.jpg)
+  }
+}
+h1,.card-title, .card-text, p{
+  color:wheat;
+}
